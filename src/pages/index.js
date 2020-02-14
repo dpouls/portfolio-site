@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.png'
+import thumb01 from './../assets/images/thumbs/01.png'
 import thumb02 from '../assets/images/thumbs/02.png'
 // import thumb03 from '../assets/images/thumbs/03.jpg'
 // import thumb04 from '../assets/images/thumbs/04.jpg'
