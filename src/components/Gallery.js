@@ -15,7 +15,8 @@ import m05 from '../assets/images/moneta/5.png'
 import m06 from '../assets/images/moneta/6.png'
 import m07 from '../assets/images/moneta/7.png'
 import m08 from '../assets/images/moneta/8.png'
-
+const moneta = 'http://moneta.guru'
+const dallinpoulson = 'http://dallinpoulson.com'
 const sunnyImages = [
     {
       id: '1',
@@ -115,7 +116,7 @@ class Gallery extends Component {
                         <img src={obj.thumbnail} />
                     </a>
 
-                    <h3>{obj.caption}</h3>
+                   <a target="_blank"  href="http://dallinpoulson.com"><h3>{obj.caption}</h3></a> 
                     <p>{obj.description}</p>
                 </article>
             );
