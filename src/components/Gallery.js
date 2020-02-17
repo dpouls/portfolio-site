@@ -2,19 +2,19 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import s01 from '../assets/images/sunny/home.png'
-import s02 from '../assets/images/sunny/discover.png'
-import s03 from '../assets/images/sunny/notifications.png'
-import s04 from '../assets/images/sunny/profile.png'
+import s01 from '../assets/images/sunny/home.jpg'
+import s02 from '../assets/images/sunny/discover.jpg'
+import s03 from '../assets/images/sunny/notifications.jpg'
+import s04 from '../assets/images/sunny/profile.jpg'
 
-import m01 from '../assets/images/moneta/1.png'
-import m02 from '../assets/images/moneta/2.png'
-import m03 from '../assets/images/moneta/3.png'
-import m04 from '../assets/images/moneta/4.png'
-import m05 from '../assets/images/moneta/5.png'
-import m06 from '../assets/images/moneta/6.png'
-import m07 from '../assets/images/moneta/7.png'
-import m08 from '../assets/images/moneta/8.png'
+import m01 from '../assets/images/moneta/1.jpg'
+import m02 from '../assets/images/moneta/2.jpg'
+import m03 from '../assets/images/moneta/3.jpg'
+import m04 from '../assets/images/moneta/4.jpg'
+import m05 from '../assets/images/moneta/5.jpg'
+import m06 from '../assets/images/moneta/6.jpg'
+import m07 from '../assets/images/moneta/7.jpg'
+import m08 from '../assets/images/moneta/8.jpg'
 const moneta = 'http://moneta.guru'
 const dallinpoulson = 'http://dallinpoulson.com'
 const sunnyImages = [
