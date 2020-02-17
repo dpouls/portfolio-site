@@ -55,13 +55,13 @@ class HomeIndex extends React.Component {
               was able to build my first projects, both on my own and in a group
               environment.
             </p>
-            {/* <ul className="actions">
+            <ul className="actions">
               <li>
-                <a href="#" className="button">
+                <a href="https://docs.google.com/document/d/1_mGvbQqB7J8Q-v-b-bu63y22_0svlxMQKg1qx8F_KvA/edit?usp=sharing" className="button">
                   Learn More
                 </a>
               </li>
-            </ul> */}
+            </ul>
           </section>
 
           <section id="two">
