@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import Carousel, { Modal, ModalGateway } from "react-images";
 
+import s00 from '../assets/images/sunny/login.jpg'
 import s01 from '../assets/images/sunny/home.jpg'
 import s02 from '../assets/images/sunny/discover.jpg'
 import s03 from '../assets/images/sunny/notifications.jpg'
@@ -16,8 +17,13 @@ import m06 from '../assets/images/moneta/6.jpg'
 import m07 from '../assets/images/moneta/7.jpg'
 import m08 from '../assets/images/moneta/8.jpg'
 const moneta = 'http://moneta.guru'
-const dallinpoulson = 'http://dallinpoulson.com'
+const sunny = 'http://178.128.190.226:7000/#/'
 const sunnyImages = [
+    {
+        id: '0',
+        source: s00,
+        caption: 'Login',
+      },
     {
       id: '1',
       source: s01,
@@ -116,8 +122,11 @@ class Gallery extends Component {
                         <img src={obj.thumbnail} />
                     </a>
 
-                   <a target="_blank"  href="http://dallinpoulson.com"><h3>{obj.caption}</h3></a> 
+                   <a target="_blank"  href={obj.caption === 'Sunny' ? sunny : moneta}><h3>{obj.caption}</h3></a> 
                     <p>{obj.description}</p>
+                   <a target="_blank"  href={obj.caption === 'Sunny' ? sunny : moneta}><h3 style={{color: '#05789e'}}>Go to live site</h3></a> 
+                   <p>username: asdf</p>
+                   <p>password: asdf</p>
                 </article>
             );
         });

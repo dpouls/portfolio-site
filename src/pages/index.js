@@ -84,7 +84,7 @@ class HomeIndex extends React.Component {
           <section id="three">
             <h2>Get In Touch</h2>
             <p>I'd love to work with you! I usually respond within 24 hours.</p>
-            <div className="row">
+            {/* <div className="row">
               <div className="8u 12u$(small)">
                 <form method="post" action="#">
                   <div className="row uniform 50%">
@@ -119,7 +119,7 @@ class HomeIndex extends React.Component {
                     <input type="submit" value="Send Message" />
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
                   <li>
@@ -145,7 +145,7 @@ class HomeIndex extends React.Component {
                   </li>
                 </ul>
               </div>
-            </div>
+            {/* </div> */}
           </section>
         </div>
       </Layout>
